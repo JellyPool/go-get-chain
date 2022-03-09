@@ -1,3 +1,7 @@
+/**
+ * Install Tailwind CSS with Vue 3 and Vite
+ * @see https://tailwindcss.com/docs/guides/vite
+ */
 module.exports = {
   content: [
     "./index.html",
