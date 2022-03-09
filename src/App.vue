@@ -1,16 +1,16 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts" setup>
+import CopyIntro from '@/components/CopyIntro.vue'
+import ChainsList from '@/components/ChainsList.vue'
 </script>
 
 <template>
-  <div class="container mx-auto">
-    <img class="mx-auto" alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div class="flex flex-col md:flex-row w-full h-full">
+    <div class="w-full md:w-1/4 min-h-screen border border-2">
+      <CopyIntro />
+    </div>
 
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div class="w-full md:w-3/4 border border-2">
+      <ChainsList />
+    </div>
   </div>
 </template>
