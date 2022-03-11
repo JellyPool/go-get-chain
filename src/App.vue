@@ -9,7 +9,7 @@ import ChainsList from '@/components/ChainsList.vue'
       <CopyIntro />
     </div>
 
-    <div class="w-full md:w-3/4 border border-2">
+    <div class="w-full md:w-3/4 border border-2  overflow-y-scroll">
       <ChainsList />
     </div>
   </div>
