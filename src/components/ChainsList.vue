@@ -5,9 +5,4 @@ import BaseGrid from '@/components/base/BaseGrid.vue';
 
 <template>
   <BaseGrid :items="chains" />
-  <div>
-    <pre class="max-w-full whitespace-pre-wrap">
-      {{ chains }}
-    </pre>
-  </div>
 </template>

@@ -2,5 +2,7 @@
 </script>
 
 <template>
-  OLA
+  <div data-test="grid-item">
+    <slot />
+  </div>
 </template>
